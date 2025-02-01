@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # Load scheme names from Excel file
-file_path = '/home/rajkamal/Desktop/New_ERA/MTechProj/Details_Of_Schemes/schemes_formatted_info.xlsx'
+file_path = './schemes_formatted_info.xlsx'
 df = pd.read_excel(file_path)
 
 # Extract and clean scheme names
